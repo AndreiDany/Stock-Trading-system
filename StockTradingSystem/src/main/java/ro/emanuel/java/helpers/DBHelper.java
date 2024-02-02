@@ -24,7 +24,7 @@ public class DBHelper {
 		if (conn == null || conn.isClosed()) {
 			Properties connectionProps = new Properties();
 			connectionProps.put("user", "root");
-			connectionProps.put("password", "D@ni.leon!@#");
+			connectionProps.put("password", "");
 			conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/stock_trading_system", connectionProps);
 
 			return conn;
